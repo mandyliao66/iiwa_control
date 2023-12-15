@@ -1,0 +1,18 @@
+<!-- run_joint_control_test.launch -->
+
+<launch>
+  <!-- Set the ROS_MASTER_URI and ROS_HOSTNAME if needed -->
+  <!-- Example:
+  <env name="ROS_MASTER_URI" value="http://localhost:11311"/>
+  <env name="ROS_HOSTNAME" value="localhost"/>
+  -->
+
+  <!-- Start the ROS node -->
+  <node name="joint_control_test_node" pkg="iiwa_control_generic" type="joint_control_test" output="screen">
+    <!-- Add any parameters that the node may require -->
+    <!-- Example:
+    <param name="param_name" type="param_type" value="param_value"/>
+    -->
+  </node>
+</launch>
+
